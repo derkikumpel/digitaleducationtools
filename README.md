@@ -8,8 +8,7 @@ This repository contains the source code for the **TeachFlow Toolkit** – a sim
 
 Once deployed, the site will be available at:
 
-
-(Replace `yourusername` with your GitHub username.)
+https://yourusername.github.io/teachflow-toolkit
 
 ---
 
@@ -34,8 +33,9 @@ Once deployed, the site will be available at:
 ## 🔗 Connect a Custom Domain (e.g. digitaleducationtools.com)
 
 1. In your repo, create a file called `CNAME` (no extension).
-2. Add your domain to that file:
+2. Add your domain to that file: 
 
+   (e.g. digitaleducationtools.com)
 
 3. In your domain provider (e.g. Namecheap), add a **CNAME DNS record**:
    - Type: `CNAME`  
