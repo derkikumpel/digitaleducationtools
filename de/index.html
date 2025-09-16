@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Druckfertige Unterrichts-Pakete – Digital Education Tools</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <header id="site-header"></header>
+  <main>
+    <h1>Druckfertige Unterrichts-Pakete. In Minuten bereit.</h1>
+    <p>Arbeitsblätter, Tests und Slides – immer mit Lösungen. Für Grundschule bis Oberstufe.</p>
+    <p>
+      <a class="btn" href="/de/shop/">Zum Shop</a>
+      <a class="btn" href="https://app.digitaleducationtools.com">Generator (Abo)</a>
+    </p>
+  </main>
+  <footer id="site-footer"></footer>
+  <script>
+    fetch('/components/header.de.html').then(r=>r.text()).then(t=>site_header.innerHTML=t);
+    fetch('/components/footer.de.html').then(r=>r.text()).then(t=>site_footer.innerHTML=t);
+  </script>
+</body>
+</html>
