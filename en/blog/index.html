@@ -1,1 +1,17 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Blog – Digital Education Tools</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head><body>
+<header id="site-header"></header>
+<main>
+  <h1>Blog</h1>
+  <p>Short teaching tips and ideas will appear here soon.</p>
+</main>
+<footer id="site-footer"></footer>
+<script>
+  fetch('/components/header.en.html').then(r=>r.text()).then(t=>site_header.innerHTML=t);
+  fetch('/components/footer.en.html').then(r=>r.text()).then(t=>site_footer.innerHTML=t);
+</script>
+</body></html>
 
