@@ -1,1 +1,19 @@
+<!doctype html><html lang="de"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Freebie – Digital Education Tools</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head><body>
+<header id="site-header"></header>
+<main>
+  <h1>Gratis: 100 Starteraufgaben</h1>
+  <p>Trage deine E-Mail ein und erhalte das PDF sofort per Mail.</p>
+  <!-- Brevo-Embed kommt hier rein, sobald erstellt -->
+  <p><em>(Hier kommt später das Formular von Brevo.)</em></p>
+</main>
+<footer id="site-footer"></footer>
+<script>
+  fetch('/components/header.de.html').then(r=>r.text()).then(t=>site_header.innerHTML=t);
+  fetch('/components/footer.de.html').then(r=>r.text()).then(t=>site_footer.innerHTML=t);
+</script>
+</body></html>
 
