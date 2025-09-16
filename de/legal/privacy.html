@@ -1,26 +1,26 @@
-<!doctype html>
-<html lang="de">
-<head>
-  <meta charset="utf-8" />
-  <title>Datenschutz – Digital Education Tools</title>
-</head>
-<body>
+<!doctype html><html lang="de"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Datenschutz – Digital Education Tools</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head><body>
+<header id="site-header"></header>
+<main>
   <h1>Datenschutz</h1>
-  <p>Wir nehmen den Schutz Ihrer persönlichen Daten ernst. Personenbezogene Daten
-  (z. B. E-Mail-Adresse) werden vertraulich behandelt.</p>
-
+  <p>Wir behandeln personenbezogene Daten vertraulich. Wir speichern nur, was für die Bereitstellung unserer Dienste nötig ist.</p>
   <h2>Welche Daten wir erfassen</h2>
   <ul>
-    <li><strong>Käufe:</strong> Abwicklung über unseren Partner Lemon Squeezy. Wir speichern keine Zahlungsdaten.</li>
+    <li><strong>Käufe:</strong> Abwicklung über unseren Partner (z. B. Lemon Squeezy oder Gumroad). Wir speichern keine Zahlungsdaten.</li>
     <li><strong>Newsletter:</strong> E-Mail-Adressen werden bei Brevo gespeichert. Abmeldung jederzeit möglich.</li>
     <li><strong>Statistik:</strong> (optional später) anonyme Besucherzahlen über Plausible Analytics.</li>
   </ul>
-
   <h2>Ihre Rechte</h2>
-  <p>Sie können jederzeit Auskunft, Korrektur oder Löschung Ihrer gespeicherten Daten verlangen.
-  Kontaktieren Sie uns dazu bitte unter: support@digitaleducationtools.com.</p>
-
+  <p>Auskunft, Berichtigung oder Löschung: Schreiben Sie an support@digitaleducationtools.com.</p>
   <h2>Speicherdauer</h2>
-  <p>Wir speichern Daten nur so lange, wie es für den jeweiligen Zweck erforderlich ist.</p>
-</body>
-</html>
+  <p>Wir speichern Daten nur so lange, wie es für den jeweiligen Zweck erforderlich ist oder gesetzlich verlangt wird.</p>
+</main>
+<footer id="site-footer"></footer>
+<script>
+  fetch('/components/header.de.html').then(r=>r.text()).then(t=>site_header.innerHTML=t);
+  fetch('/components/footer.de.html').then(r=>r.text()).then(t=>site_footer.innerHTML=t);
+</script>
+</body></html>
