@@ -1,1 +1,27 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy – Digital Education Tools</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head><body>
+<header id="site-header"></header>
+<main>
+  <h1>Privacy</h1>
+  <p>We handle personal data confidentially and only store what is necessary to provide our services.</p>
+  <h2>What we collect</h2>
+  <ul>
+    <li><strong>Purchases:</strong> Processed by our partner (e.g. Lemon Squeezy or Gumroad). We do not store payment data.</li>
+    <li><strong>Newsletter:</strong> Email addresses are stored with Brevo. You can unsubscribe at any time.</li>
+    <li><strong>Analytics:</strong> (optional later) anonymous visitor stats via Plausible Analytics.</li>
+  </ul>
+  <h2>Your rights</h2>
+  <p>For access, correction or deletion requests, email support@digitaleducationtools.com.</p>
+  <h2>Retention</h2>
+  <p>We retain data only as long as required for the respective purpose or by law.</p>
+</main>
+<footer id="site-footer"></footer>
+<script>
+  fetch('/components/header.en.html').then(r=>r.text()).then(t=>site_header.innerHTML=t);
+  fetch('/components/footer.en.html').then(r=>r.text()).then(t=>site_footer.innerHTML=t);
+</script>
+</body></html>
 
