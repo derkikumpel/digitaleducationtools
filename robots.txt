@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.digitaleducationtools.com/sitemap.xml
+Sitemap: https://digitaleducationtools.com/sitemap.xml
