@@ -1,1 +1,19 @@
+<!doctype html><html lang="de"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shop – Digital Education Tools</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head><body>
+<header id="site-header"></header>
+<main>
+  <h1>Shop</h1>
+  <div id="products" class="grid"></div>
+</main>
+<footer id="site-footer"></footer>
+<script>
+  fetch('/components/header.de.html').then(r=>r.text()).then(t=>site_header.innerHTML=t);
+  fetch('/components/footer.de.html').then(r=>r.text()).then(t=>site_footer.innerHTML=t);
+</script>
+<script src="/assets/js/shop.js"></script>
+<script>renderShop('/assets/js/products.de.json');</script>
+</body></html>
 
