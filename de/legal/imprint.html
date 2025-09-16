@@ -1,18 +1,21 @@
-<!doctype html>
-<html lang="de">
-<head>
-  <meta charset="utf-8" />
-  <title>Impressum – Digital Education Tools</title>
-</head>
-<body>
+<!doctype html><html lang="de"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Impressum – Digital Education Tools</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head><body>
+<header id="site-header"></header>
+<main>
   <h1>Impressum</h1>
   <p><strong>Digital Education Tools</strong><br>
-  Weihermatte 6<br>
-  6204 Sempach<br>
+  Postfach [DEINE NUMMER]<br>
+  [PLZ] [Ort]<br>
   Schweiz</p>
-
   <p>E-Mail: support@digitaleducationtools.com</p>
-
   <p>Hinweis: Alle Inhalte sind digitale Produkte. Kein physischer Versand.</p>
-</body>
-</html>
+</main>
+<footer id="site-footer"></footer>
+<script>
+  fetch('/components/header.de.html').then(r=>r.text()).then(t=>site_header.innerHTML=t);
+  fetch('/components/footer.de.html').then(r=>r.text()).then(t=>site_footer.innerHTML=t);
+</script>
+</body></html>
